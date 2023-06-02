@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T14:29:25.633Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="cPK9JKU7SAGW8gUf9HQD" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-02T14:32:06.130Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="w1Pk6nTUXPk1c5XlJbbn" version="21.3.7" type="github">
   <diagram name="Page-1" id="FQfJPA8nZUWWlbEdBQB2">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,11 +154,11 @@
         <mxCell id="npDN_3FjAHae5I_baPNE-28" value="Valider l&#39;identification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="390" y="550" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="npDN_3FjAHae5I_baPNE-29" value="Choisir le services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="npDN_3FjAHae5I_baPNE-29" value="Choisir le service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="670" y="560" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="npDN_3FjAHae5I_baPNE-30" value="Choisir le personnel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="680" y="655" width="110" height="40" as="geometry" />
+          <mxGeometry x="670" y="655" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="npDN_3FjAHae5I_baPNE-31" value="Suivre la file d&#39;attente" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="420" y="645" width="130" height="60" as="geometry" />
@@ -209,10 +209,10 @@
         <mxCell id="npDN_3FjAHae5I_baPNE-43" value="QR deja scanne" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="85" y="795" width="165" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="npDN_3FjAHae5I_baPNE-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="npDN_3FjAHae5I_baPNE-29">
+        <mxCell id="npDN_3FjAHae5I_baPNE-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="npDN_3FjAHae5I_baPNE-29" target="npDN_3FjAHae5I_baPNE-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="725" as="sourcePoint" />
-            <mxPoint x="730" y="660" as="targetPoint" />
+            <mxPoint x="730" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="npDN_3FjAHae5I_baPNE-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="npDN_3FjAHae5I_baPNE-43" target="npDN_3FjAHae5I_baPNE-31">
