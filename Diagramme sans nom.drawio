@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T14:23:51.138Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="TBepzriy8ViSOIsxLZYK" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-02T14:29:25.633Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="cPK9JKU7SAGW8gUf9HQD" version="21.3.7" type="github">
   <diagram name="Page-1" id="FQfJPA8nZUWWlbEdBQB2">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,6 +132,94 @@
         </mxCell>
         <mxCell id="npDN_3FjAHae5I_baPNE-22" value="Identifiant&lt;br&gt;Nom&lt;br&gt;QR" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="npDN_3FjAHae5I_baPNE-21">
           <mxGeometry x="10" y="35" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-24" value="Scan le QR code" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="85" y="535" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-25" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="675" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="npDN_3FjAHae5I_baPNE-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="580" as="sourcePoint" />
+            <mxPoint x="310" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="npDN_3FjAHae5I_baPNE-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="675" as="sourcePoint" />
+            <mxPoint x="80" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-28" value="Valider l&#39;identification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="390" y="550" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-29" value="Choisir le services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="670" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-30" value="Choisir le personnel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="680" y="655" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-31" value="Suivre la file d&#39;attente" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="420" y="645" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="npDN_3FjAHae5I_baPNE-28" target="npDN_3FjAHae5I_baPNE-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="564" as="sourcePoint" />
+            <mxPoint x="670" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="npDN_3FjAHae5I_baPNE-30" target="npDN_3FjAHae5I_baPNE-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="453" y="583" as="sourcePoint" />
+            <mxPoint x="520" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-34" value="Entrer le nom + Prendre Photo temp" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.5;base=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="420" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="npDN_3FjAHae5I_baPNE-31" target="npDN_3FjAHae5I_baPNE-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="630" as="sourcePoint" />
+            <mxPoint x="440" y="675" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-37" value="Payer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="240" y="655" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-39" value="Gagner Points" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="100" y="645" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="npDN_3FjAHae5I_baPNE-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="685" as="sourcePoint" />
+            <mxPoint x="200" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-41" value="Entrer &lt;br&gt;Numero Tel" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.5;base=10;fillColor=#fff2cc;strokeColor=#d6b656;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="110" y="695" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.001;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="npDN_3FjAHae5I_baPNE-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="765" as="sourcePoint" />
+            <mxPoint x="90" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-43" value="QR deja scanne" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="85" y="795" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="npDN_3FjAHae5I_baPNE-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="725" as="sourcePoint" />
+            <mxPoint x="730" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npDN_3FjAHae5I_baPNE-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="npDN_3FjAHae5I_baPNE-43" target="npDN_3FjAHae5I_baPNE-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="725" as="sourcePoint" />
+            <mxPoint x="375" y="840" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
