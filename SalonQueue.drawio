@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-17T10:54:16.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tbJYVYCdUM6uJ-qIZB7u" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-17T11:24:09.914Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="mSQZ7eteCUP169lMDRMP" version="21.3.8" type="github">
   <diagram name="Page-1" id="-C3QOcp5JguwVGBNDxWc">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,63 +94,6 @@
         </mxCell>
         <mxCell id="d8QerVi8jdoxbhfnXF6T-24" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Suivre la file d&#39;attente:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Duree moyenne de chaque prestation selon le service&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;--&amp;gt; duree aproximative d&#39;attente&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="60" y="440" width="300" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="h-gxG9mlFZb4O9LhCyiu-21" value="Scan le QR code for hotel rooms" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="110" y="830" width="165" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="h-gxG9mlFZb4O9LhCyiu-22" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="845" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="h-gxG9mlFZb4O9LhCyiu-25" value="valider avec la date de naissance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="361" y="840" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="h-gxG9mlFZb4O9LhCyiu-26" value="Choisir le service et commander" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="621" y="850" width="180" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="h-gxG9mlFZb4O9LhCyiu-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h-gxG9mlFZb4O9LhCyiu-25" target="h-gxG9mlFZb4O9LhCyiu-26">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="764" as="sourcePoint" />
-            <mxPoint x="690" y="815" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="h-gxG9mlFZb4O9LhCyiu-31" value="Bonjour Mr XX" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.5;base=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="401" y="780" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="h-gxG9mlFZb4O9LhCyiu-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="275" y="875" as="sourcePoint" />
-            <mxPoint x="361" y="875" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="h-gxG9mlFZb4O9LhCyiu-42" value="Agent" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="41" y="700" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="h-gxG9mlFZb4O9LhCyiu-43" value="Inserer les donnes lors de check In" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="201" y="700" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="h-gxG9mlFZb4O9LhCyiu-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="70" y="875" as="sourcePoint" />
-            <mxPoint x="110" y="875" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="h-gxG9mlFZb4O9LhCyiu-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="h-gxG9mlFZb4O9LhCyiu-43">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="81" y="730" as="sourcePoint" />
-            <mxPoint x="71" y="770" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="h-gxG9mlFZb4O9LhCyiu-46" value="Client data + room number" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;base=10;fillColor=#fff2cc;strokeColor=#d6b656;size=15;position=0.04;" vertex="1" parent="1">
-          <mxGeometry x="371" y="640" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="h-gxG9mlFZb4O9LhCyiu-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h-gxG9mlFZb4O9LhCyiu-21">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="285" y="885" as="sourcePoint" />
-            <mxPoint x="360" y="950" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="h-gxG9mlFZb4O9LhCyiu-49" value="connect with other clients" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="360" y="930" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
