@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-01T15:36:54.108Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="G6me5YzMZlJYaBXwsORW" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-01T15:38:57.914Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DoMP4ivg6B6ZgzgqroXD" version="21.3.8" type="github">
   <diagram name="Page-1" id="iK5Vl_hAKMWKLwX5-7bY">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,13 +13,10 @@
         <mxCell id="lxl6JpcZI0_D59cSdXGJ-3" value="valider avec la date de naissance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="411" y="290" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lxl6JpcZI0_D59cSdXGJ-4" value="Choisir le service et commander" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="720" y="270" width="180" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lxl6JpcZI0_D59cSdXGJ-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lxl6JpcZI0_D59cSdXGJ-3" target="lxl6JpcZI0_D59cSdXGJ-4">
+        <mxCell id="lxl6JpcZI0_D59cSdXGJ-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lxl6JpcZI0_D59cSdXGJ-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="690" y="214" as="sourcePoint" />
-            <mxPoint x="740" y="265" as="targetPoint" />
+            <mxPoint x="690" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lxl6JpcZI0_D59cSdXGJ-6" value="Bonjour Mr XX" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.5;base=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -52,20 +49,30 @@
         <mxCell id="lxl6JpcZI0_D59cSdXGJ-12" value="Client data + room number" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;base=10;fillColor=#fff2cc;strokeColor=#d6b656;size=15;position=0.04;" vertex="1" parent="1">
           <mxGeometry x="421" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lxl6JpcZI0_D59cSdXGJ-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lxl6JpcZI0_D59cSdXGJ-1">
+        <mxCell id="lxl6JpcZI0_D59cSdXGJ-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.582;exitY=1.023;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lxl6JpcZI0_D59cSdXGJ-3" target="lxl6JpcZI0_D59cSdXGJ-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="335" y="335" as="sourcePoint" />
+            <mxPoint x="570" y="360" as="sourcePoint" />
             <mxPoint x="410" y="400" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lxl6JpcZI0_D59cSdXGJ-14" value="connect with other clients" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="410" y="380" width="180" height="40" as="geometry" />
+          <mxGeometry x="520" y="420" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lxl6JpcZI0_D59cSdXGJ-15" value="Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="827" y="350" width="80" height="40" as="geometry" />
+          <mxGeometry x="700" y="240" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lxl6JpcZI0_D59cSdXGJ-16" value="Boissons &amp;amp; repas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="720" y="350" width="80" height="40" as="geometry" />
+          <mxGeometry x="700" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lxl6JpcZI0_D59cSdXGJ-17" value="Informations: wifi ...." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lxl6JpcZI0_D59cSdXGJ-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="330" as="sourcePoint" />
+            <mxPoint x="690" y="210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
